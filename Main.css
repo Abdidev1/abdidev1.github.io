@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lobster",cursive;
+}
+.BG{
+    min-width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(to bottom right,#063dd494,#08a31d60);
+}
+.EM{
+    color: rgb(8, 5, 20);
+    font-size: 144px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    transform: translateY(-25%) translateX(25%);
+}
+.ImgDisplayer{
+    position: absolute;
+    top: -8%;
+    left: 2%;
+    width: 50%;
+    transform: translateY(-50) translateX(-40%);
+}
+img{
+    width: 100%;
+}
+.TextArea{
+    position: relative;
+    top: 9%;
+    right: 20%;
+    font-size: 60px;
+    color: black;
+    transform: translateY(-70%) translateX(-40%);
+}
+h2{
+    position: absolute;
+    top: 50%;
+    right: -54%;
+    font-size: 40px;
+}
+.DevBy{
+    position: absolute;
+    top: 68%;
+    right: -24%;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1500px){
+    .EM{
+        font-size: 94px;
+    }
+    .TextArea{
+        font-size: 40px;
+        top: 45%;
+    }
+}
+@media only screen and (max-width: 750px){
+    .EM{
+        font-size: 60px;
+        top: 15%;
+        right: 20%;
+        width: 50%;
+        transform: translateY(-50%) translateX(20%);
+    }
+
+.ImgDisplayer{
+    width: 100%;
+    top: 30%;
+    left: 30%;
+}
+.TextArea{
+    font-size: 35px
+    top: 70%;
+    transform: translateY(-40%) translateX(20%)
+
+}
+}
